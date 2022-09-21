@@ -3,21 +3,17 @@ public class Person {
     String address;
     final String country = "indonesia";
 
-    Person (String paramName, String paramAddress) {
-        name = paramName;
-        address = paramAddress;
+    Person (String name, String address) {
+        this.name = name;
+        this.address = address;
     }
-
     Person (String paramName) {
         this(paramName,null);
     }
-
     Person () {
         this(null);
     }
-
-
     void sayHello(String paramName){
-        System.out.println("Hello "+paramName+", My name is "+name);
+        System.out.println("Hello "+paramName+", My name is "+this.name);
     }
 }
