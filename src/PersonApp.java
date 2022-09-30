@@ -3,7 +3,7 @@ public class PersonApp {
         var person1 = new Person("eko","Jakarta");
 
         System.out.println(person1.name);
-        System.out.println(person1.address);
+         System.out.println(person1.address);
         System.out.println(person1.country);
 
         person1.sayHello("Budi");
