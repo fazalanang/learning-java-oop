@@ -1,4 +1,7 @@
 package Matajari.Mitra.Solusi.Data;
 
-public class Animal {
+public abstract class Animal {
+    public String name;
+
+    public abstract void run();
 }
