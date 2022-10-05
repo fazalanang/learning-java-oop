@@ -11,6 +11,6 @@ public class Avanza implements Car {
     }
 
     public String getBrand() {
-        System.out.println("toyota");
+        return "toyota";
     }
 }
