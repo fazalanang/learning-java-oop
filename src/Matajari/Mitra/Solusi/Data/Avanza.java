@@ -1,6 +1,6 @@
 package Matajari.Mitra.Solusi.Data;
 
-public class Avanza implements Car {
+public class Avanza implements Car, isMaintenance {
 
     public void drive() {
         System.out.println("Avanza drive");
@@ -12,5 +12,9 @@ public class Avanza implements Car {
 
     public String getBrand() {
         return "toyota";
+    }
+
+    public boolean isMaintenance() {
+        return false;
     }
 }
