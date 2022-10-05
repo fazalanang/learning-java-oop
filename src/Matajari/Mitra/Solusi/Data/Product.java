@@ -9,4 +9,8 @@ public class Product {
         this.name = name;
         this.price = price;
     }
+    //toString() Method//
+    public String toString() {
+        return "Product name: "+ name + ", price" + price;
+    }
 }
