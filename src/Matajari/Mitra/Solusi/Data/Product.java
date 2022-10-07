@@ -1,5 +1,7 @@
 package Matajari.Mitra.Solusi.Data;
 
+import java.util.Objects;
+
 public class Product {
 
     public String name;
@@ -14,25 +16,24 @@ public class Product {
         return "Product name: "+ name + ", price" + price;
     }
 
+    //Code --> Generate --> equals() and hashCode()//
+    @Override
+    //equals()//
     public boolean equals(Object o) {
-        if (o == this) {
-            return true;
-        }
-
-        if (!(o instanceof Product)) {
-            return false;
-        }
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
 
         Product product = (Product) o;
 
-        if (this.price != product.price) {
-            return false;
-        }
-
-        if (this.name != null) {
-            return this.name.equals(product.name);
-        }else {
-            return product.name == null;
-        }
+        if (price != product.price) return false;
+        return Objects.equals(name, product.name);
     }
+    @Override
+    //hashCode()//
+    public int hashCode() {
+        int result = name != null ? name.hashCode() : 0;
+        result = 31 * result + price;
+        return result;
+    }
+
 }
