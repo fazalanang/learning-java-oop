@@ -5,7 +5,7 @@ import Matajari.Mitra.Solusi.Error.ValidationException;
 
 public class ValidationUtil {
     public  static void  validate (LoginRequest loginRequest) throws ValidationException {
-        if (loginRequest.userName() == null)
+        if (loginRequest.userName() == null){
             throw new ValidationException("username is null");
         } else if (loginRequest.userName().isBlank()) {
             throw new ValidationException("username is blank");

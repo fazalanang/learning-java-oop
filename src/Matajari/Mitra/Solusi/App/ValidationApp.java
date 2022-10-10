@@ -10,10 +10,12 @@ public class ValidationApp {
         try {
             ValidationUtil.validate(loginRequest);
             System.out.println("Data Valid");
-        } catch (ValidationException exception)
+        } catch (ValidationException exception){
             System.out.println("Data tidak valid : "+exception.getMessage());
         } catch (NullPointerException exception) {
             System.out.println("Data null : "+ exception.getMessage());
+        } finally {
+            System.out.println("Selalu di eksekusi");
         }
     }
 }
