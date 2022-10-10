@@ -1,4 +1,4 @@
-package Matajari.Mitra.Solusi.Data;
+package Data;
 
 public interface isMaintenance {
     boolean isMaintenance = false;

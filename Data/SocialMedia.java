@@ -1,4 +1,4 @@
-package Matajari.Mitra.Solusi.Data;
+package Data;
 
 class SocialMedia {
     String name;

@@ -1,6 +1,6 @@
 package Matajari.Mitra.Solusi.App;
 
-import Matajari.Mitra.Solusi.Data.Company;
+import Data.Company;
 
 public class CompanyApp {
     public static void main(String[] args) {

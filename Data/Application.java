@@ -1,4 +1,4 @@
-package Matajari.Mitra.Solusi.Data;
+package Data;
 
 public class Application {
     public static final int PROCESSOR;

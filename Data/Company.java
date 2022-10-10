@@ -1,6 +1,6 @@
-package Matajari.Mitra.Solusi.Data;
-
-public class Country {
+package Data;
+/*Outer Class*/
+public class Company {
     private String name;
 
     public String getName() {
@@ -10,9 +10,13 @@ public class Country {
     public void setName(String name) {
         this.name = name;
     }
-
-    public static class City {
+    /* Inner class */
+    public class Employee {
         private String name;
+
+        public String getCompany() {
+            return Company.this.getName();
+        }
 
         public String getName() {
             return name;

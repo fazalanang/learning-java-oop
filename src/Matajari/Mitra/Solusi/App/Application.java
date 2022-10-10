@@ -1,5 +1,6 @@
 package Matajari.Mitra.Solusi.App;
 
+import Data.Product;
 import Matajari.Mitra.Solusi.Data.*;
 
 public class Application {

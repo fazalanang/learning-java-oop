@@ -1,6 +1,6 @@
 package Matajari.Mitra.Solusi.App;
 
-import Matajari.Mitra.Solusi.Data.LoginRequest;
+import Data.LoginRequest;
 
 public class RecordApp {
     public static void main(String[] args) {

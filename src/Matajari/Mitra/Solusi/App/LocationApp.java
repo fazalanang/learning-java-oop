@@ -1,8 +1,6 @@
 package Matajari.Mitra.Solusi.App;
 
-import Matajari.Mitra.Solusi.Data.City;
-
-import Matajari.Mitra.Solusi.Data.Location;
+import Data.City;
 
 public class LocationApp {
     public static void main(String[] args) {

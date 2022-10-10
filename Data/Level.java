@@ -1,5 +1,8 @@
-package Matajari.Mitra.Solusi.Data;
+package Data;
+import Matajari.Mitra.Solusi.Annotation.Fancy;
 
+//Annotation//
+@Fancy(name = "level", tags = {"application","java"})
 public enum Level {
     STANDARD("Standard Level"),
     PREMIUM("Premium Level"),

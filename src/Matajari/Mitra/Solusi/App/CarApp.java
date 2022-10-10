@@ -1,7 +1,7 @@
 package Matajari.Mitra.Solusi.App;
 
-import Matajari.Mitra.Solusi.Data.Avanza;
-import Matajari.Mitra.Solusi.Data.Car;
+import Data.Avanza;
+import Data.Car;
 
 public class CarApp {
     public static void main(String[] args) {

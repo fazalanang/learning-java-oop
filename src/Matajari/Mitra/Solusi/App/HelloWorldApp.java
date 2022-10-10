@@ -1,6 +1,6 @@
 package Matajari.Mitra.Solusi.App;
 
-import Matajari.Mitra.Solusi.Data.HelloWorld;
+import Data.HelloWorld;
 
 public class HelloWorldApp {
     public static void main(String[] args) {

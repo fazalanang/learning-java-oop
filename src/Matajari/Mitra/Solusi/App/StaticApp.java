@@ -1,8 +1,8 @@
 package Matajari.Mitra.Solusi.App;
 
-import Matajari.Mitra.Solusi.Data.Application;
-import Matajari.Mitra.Solusi.Data.Constant;
-import Matajari.Mitra.Solusi.Data.Country;
+import Data.Application;
+import Data.Constant;
+import Data.Country;
 import Matajari.Mitra.Solusi.Utill.MathUtil;
 
 public class StaticApp {

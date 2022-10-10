@@ -1,7 +1,7 @@
 package Matajari.Mitra.Solusi.App;
 
-import Matajari.Mitra.Solusi.Data.Customer;
-import Matajari.Mitra.Solusi.Data.Level;
+import Data.Customer;
+import Data.Level;
 
 
 public class EnumApp {

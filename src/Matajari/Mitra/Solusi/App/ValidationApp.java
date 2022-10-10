@@ -1,6 +1,6 @@
 package Matajari.Mitra.Solusi.App;
 
-import Matajari.Mitra.Solusi.Data.LoginRequest;
+import Data.LoginRequest;
 import Matajari.Mitra.Solusi.Error.ValidationException;
 import Matajari.Mitra.Solusi.Utill.ValidationUtil;
 

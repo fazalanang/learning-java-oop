@@ -1,4 +1,4 @@
-package Matajari.Mitra.Solusi.Data;
+package Data;
 
 public class ProductApp {
     public static void main(String[] args) {
